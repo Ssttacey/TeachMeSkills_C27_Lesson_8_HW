@@ -9,17 +9,16 @@ public class Therapist implements ITreatment {
         System.out.println(" Your treatment plan has been prescribed. You are referred to a Therapist ");
     }
 
-    Surgeon surgeon = new Surgeon();
-    Dentist dentist = new Dentist();
-    Therapist therapist = new Therapist();
-
     public void assignDoctor(Patient patient) {
+        ITreatment doctor;
         if (patient.treatmentPlan == 1) {
-            surgeon.treatment();
+            doctor = new Surgeon();
         } else if (patient.treatmentPlan == 2) {
-            dentist.treatment();
+            doctor = new Dentist();
         } else {
-            therapist.treatment();
+            doctor = new Therapist();
         }
+
+        doctor.treatment();
     }
 }
