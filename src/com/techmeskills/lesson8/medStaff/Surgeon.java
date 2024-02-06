@@ -1,4 +1,7 @@
 package com.techmeskills.lesson8.medStaff;
+/**
+ * the surgeon class interprets the method
+ */
 
 public class Surgeon implements ITreatment {
 

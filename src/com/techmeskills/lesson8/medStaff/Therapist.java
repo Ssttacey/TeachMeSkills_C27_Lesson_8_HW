@@ -1,6 +1,10 @@
 package com.techmeskills.lesson8.medStaff;
 
 import com.techmeskills.lesson8.patient.Patient;
+/**
+ * The therapist class interprets the treatment method.
+ * Contains a new method that is prescribed by the attending physician
+ */
 
 public class Therapist implements ITreatment {
 

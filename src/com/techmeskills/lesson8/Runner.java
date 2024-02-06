@@ -2,8 +2,10 @@ package com.techmeskills.lesson8;
 
 import com.techmeskills.lesson8.medStaff.Therapist;
 import com.techmeskills.lesson8.patient.Patient;
-
-
+/**
+ * This class creates a patient and therapist object.
+ * Calls a method to display the program on the screen
+ */
 public class  Runner {
     public static void main(String[] args) {
 

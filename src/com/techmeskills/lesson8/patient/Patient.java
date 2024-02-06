@@ -1,6 +1,9 @@
 package com.techmeskills.lesson8.patient;
 
 import com.techmeskills.lesson8.medStaff.ITreatment;
+/**
+ * class contains a description of the patient
+ */
 
 public class Patient {
     String name;
