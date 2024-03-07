@@ -1,4 +1,4 @@
-# TeachMeSkills_C26_Lesson_8_HW
+# TeachMeSkills_C27_Lesson_8_HW
 Homework for the eighth lesson
 
 This is a hospital simulation code. 
